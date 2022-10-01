@@ -1,0 +1,67 @@
+
+/* petit reset minimal de base */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* On normalise la taille d'écriture sur l'élément html (root) à 10px. Donc 1rem = 10px */
+  font-size: 62.5%;
+
+  -webkit-text-size-adjust: none; /*─ Debug font size on iphone when landscape orientation ─*/
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -ms-text-size-adjust: 100%;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  cursor: default;
+  scroll-behavior: smooth;
+  tab-size: 4;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* On remet la taille de la police d'écriture à 16px, vu que 1rem = 10px, 1.6rem = 16px. Donc par rapport au body 1em = 16px */
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  text-rendering: optimizeSpeed;
+  position: relative;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  color: #131418;
+  background-color: #efefef;
+}
+
+img,
+video,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+}
+
+svg {
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+/* Preventing Text Overflow */
+h1, h2, h3, h4, h5, p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
