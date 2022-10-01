@@ -137,7 +137,6 @@ Si votre icône doit apparaitre plusieurs fois dans votre page, vous pouvez l'in
 
 > **Note** 
 > L'attribut `xlink:href` dans la doc est déprécié à la place, il faut juste utiliser `href`
-> Ajouter l'attribut `fill="currentColor` à la balise `path` ou votre élément svg pour pouvoir modifier la couleur avec la propriété `color`
 
 Si vous avez besoin de redimensionner vos svg ou vos images (_jpg, png ect._) utiliser l'outil en ligne [iloveimg](https://www.iloveimg.com/resize-image/resize-svg)
 
