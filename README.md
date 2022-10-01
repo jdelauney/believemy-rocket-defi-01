@@ -91,9 +91,9 @@ Cela me permettra également de voir la structures des dossiers que vous choisir
 
 Vous devez réaliser la maquette suivante en HTML et CSS
 
-![defi-preview](https:\\github.com\jdelauney\believemy-rocket-defi-01-final\blob\master\ressources\believemy-defi-1-maquette-preview.jpeg)
+![defi-preview](https://github.com/jdelauney/believemy-rocket-defi-01/raw/main/ressources/believemy-defi-1-maquette-preview.jpeg)
 
-Pour commencer, [téléchargez](https://github.com/jdelauney/believemy-rocket-defi-01/archive/refs/heads/master.zip) les ressources et les fichiers de base.
+Pour commencer, [téléchargez](https://github.com/jdelauney/believemy-rocket-defi-01/archive/refs/heads/main.zip) les ressources et les fichiers de base.
 
 ### Obligations ⭐
 - Votre page doit contenir les meta-tags : `title` et `description`.
@@ -121,7 +121,7 @@ Pour commencer, [téléchargez](https://github.com/jdelauney/believemy-rocket-de
 ----
 ## Recommandations 💡
 - **Analyser bien la maquette**, **découpez-la en plusieurs rectangles (grilles)** pour vous aider à visualiser les différentes parties.
-  Vue que je suis une personne sympa j'en ai fait une petite partie ☺ [Spécifications](https:\\github.com\jdelauney\believemy-rocket-defi-01-final\blob\master\ressources\believemy-defi-1-maquette-spec-preview.jpeg)
+  Vue que je suis une personne sympa j'en ai fait une petite partie ☺ [Spécifications](https://github.com/jdelauney/believemy-rocket-defi-01/raw/main/ressources/believemy-defi-1-maquette-spec-preview.jpeg)
 - Déterminez quels **éléments HTML sémantique** `header, main, section, article, footer...` vous allez utiliser et surtout où. 
 - N'hésitez pas à mettre des annotations, dessiner directement sur la maquette ou prenez des notes à l'ancienne _(papier + stylo)_
 - **Réaliser la maquette en commençant par coder entièrement le code html et en spécifiant les classes css que vous allez utiliser**. 
