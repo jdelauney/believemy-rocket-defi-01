@@ -35,12 +35,14 @@ _PS : Je n'ai pas mis de lorem ipsum dans la maquette pour les textes, je trouve
 ## Introduction
 
 ### Quel est le but d'un portfolio ?
+
 De nombreuses personnes l'utilisent comme un "CV vivant" de leur travail.
 Au lieu de remplir un profil LinkedIn avec ses réalisations ou de rédiger une longue demande d'emploi, pourquoi ne pas simplement diriger les gens vers votre site Web ?
 
 Vous pourrez ainsi montrer qui vous êtes. Mettre en valeur vos compétences, ce que vous savez faire et ce que vous faites.  
 
 ### Comment réaliser son portfolio ?
+
 Le choix d'une conception de portfolio a l'allure moderne est l'occasion de vous mettre en avant et de vous démarquer.
 
 Une approche qui fonctionne bien est celle qui consiste à utiliser une mise en page en mosaïque pour faire figurer autant d'exemples que possible sur une page, puis à utiliser des éléments cliquables pour que vos visiteurs puissent regarder de plus près votre travail.
@@ -52,6 +54,7 @@ Choisissez un format qui permet d'ajouter un contenu écrit expliquant votre tra
 Il peut s'agir d'un projet réussi, de mettre des avis de personnes avec qui vous avez deja réalisé des prestations, ou peu importe.  
 
 ### Quel est l'objectif d'un portfolio ?
+
 À des fins professionnelles, vous devez vous assurer qu'il indique clairement comment vous souhaitez être contacté ou les prochaines étapes à suivre pour le faire.
 
 
@@ -71,6 +74,7 @@ Le fait d'installer plusieurs navigateurs, vous permettra de tester vos sites et
 _Certaines façons de faire fonctionneront sous Chrome et pas sous Firefox et vice et versa, idem avec Safari (surtout avec les flexbox)_.
 
 ### Quel éditeur de code choisir ?
+
 [VScode](https://code.visualstudio.com) l'éditeur gratuit de Microsoft est un "must-have" c'est un des éditeurs le plus utilisé avec ses nombreuses extensions disponibles. Sachez qu'il existe une version identique sans la télémétrie/suivi qui respecte mieux votre vie privée [VSCodium](https://vscodium.com).
 
 Coté éditeur payant vous avez les solutions de [Jetbrain IntelliJ Idea](https://www.jetbrains.com/all/) avec [WebStorm](https://www.jetbrains.com/webstorm/) et [PHPStorm](https://www.jetbrains.com/phpstorm/) notamment. 
@@ -96,6 +100,7 @@ Vous devez réaliser la maquette suivante en HTML et CSS
 Pour commencer, [téléchargez](https://github.com/jdelauney/believemy-rocket-defi-01/archive/refs/heads/main.zip) les ressources et les fichiers de base.
 
 ### Obligations ⭐
+
 - Votre page doit contenir les meta-tags : `title` et `description`.
 - Vous devez utiliser la position `sticky` ou `fixed` au choix, pour la barre de navigation (celle-ci devra toujours être visible).
 - Pour la mise en page général des éléments, vous devez exclusivement utiliser les [flexbox](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox).
@@ -106,20 +111,24 @@ Pour commencer, [téléchargez](https://github.com/jdelauney/believemy-rocket-de
 - Vous devez uniquement utiliser les unités rem, em, %, vh et vw. _(sauf pour les ombres)_ 
 
 ### Pour certains éléments de la maquette ⚠
+
 - Vous aurez à utiliser entre autre les marges internes et externes, les fonds d'image, les bordures, la transparence, les ombres, les pseudo-éléments, les figures, la position relative et absolue et pour terminer les listes.
 - Pour le lien vers le téléchargement du cv vous devrez faire en sorte que l'icône fournit (_icon-pdf_) s'affiche voir [MDN](https://developer.mozilla.org/fr/docs/Web/CSS/Attribute_selectors)  
 
 ### Ce que vous avez le droit de faire ✔
+
 - Vous pouvez modifier les images, les couleurs, les textes, la taille d'écriture comme bon vous semble.
 - Vous pouvez personnaliser les liens, les boutons, ajouter des [transformations](https://developer.mozilla.org/fr/docs/Web/CSS/transform), des [animations](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Animations/Using_CSS_animations) ou des [transitions](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) aux éléments et/ou au survol de la souris, si vous vous en sentez capable.
 
 ### Ce que vous n'avez pas le droit de faire 🚫
+
 - Utiliser l'unité px
 - Modifier la mise en page (du moins dans ce 1er défi, le but étant que vous maitrisiez les flexbox)
 - Utiliser d'autres règles CSS que celles mentionnées précédemment (pas le droit d'utiliser les grilles par exemple). 
 
 ----
 ## Recommandations 💡
+
 - **Analyser bien la maquette**, **découpez-la en plusieurs rectangles (grilles)** pour vous aider à visualiser les différentes parties.
   Vue que je suis une personne sympa j'en ai fait une petite partie ☺ [Spécifications](https://github.com/jdelauney/believemy-rocket-defi-01/raw/main/ressources/believemy-defi-1-maquette-spec-preview.jpeg)
 - Déterminez quels **éléments HTML sémantique** `header, main, section, article, footer...` vous allez utiliser et surtout où. 
@@ -132,6 +141,7 @@ Pour commencer, [téléchargez](https://github.com/jdelauney/believemy-rocket-de
 - Pensez à la propriété [gap](https://developer.mozilla.org/fr/docs/Web/CSS/gap#disposition_flexible)
 
 ## Astuces 🔨
+
 Pour optimiser vos fichiers svg et pouvoir copier le code directement dans votre html je vous conseille l'outil en ligne [SVGOMG](https://jakearchibald.github.io/svgomg/)
 Si votre icône doit apparaitre plusieurs fois dans votre page, vous pouvez l'incorporer en utilisant la balise `symbol` et utiliser votre svg avec la balise `use`. Cf. [Documentation MDN](https://developer.mozilla.org/fr/docs/Web/SVG/Element/symbol).
 Vous pourrez aussi inclure l'attribut `fill="currentColor` dans les éléments constituant votre svg. Vous pourrez ainsi contrôler la couleur de celui-ci avec la propriété css `color`.
@@ -151,6 +161,7 @@ Et pour finir, n'oubliez pas **les outils de développement de votre navigateur 
 
 ----
 ## Conclusion
+
 Ce défi à pour but, de **vous faire réviser et pratiquer** ce que vous avez appris. Il vous permettra également de **découvrir par vous-même de nouvelles choses**.
 
 Dans le prochain défi, nous améliorerons cette page, rajouterons du contenu, des animations et vous devrez la rendre responsive.
