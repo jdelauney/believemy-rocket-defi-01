@@ -133,7 +133,8 @@ Pour commencer, [téléchargez](https://github.com/jdelauney/believemy-rocket-de
 
 ## Astuces 🔨
 Pour optimiser vos fichiers svg et pouvoir copier le code directement dans votre html je vous conseille l'outil en ligne [SVGOMG](https://jakearchibald.github.io/svgomg/)
-Si votre icône doit apparaitre plusieurs fois dans votre page, vous pouvez l'incorporer en utilisant la balise `symbol` et utiliser votre svg avec la balise `use`. Cf. [Documentation MDN](https://developer.mozilla.org/fr/docs/Web/SVG/Element/symbol)
+Si votre icône doit apparaitre plusieurs fois dans votre page, vous pouvez l'incorporer en utilisant la balise `symbol` et utiliser votre svg avec la balise `use`. Cf. [Documentation MDN](https://developer.mozilla.org/fr/docs/Web/SVG/Element/symbol).
+Vous pourrez aussi inclure l'attribut `fill="currentColor` dans les éléments constituant votre svg. Vous pourrez ainsi contrôler la couleur de celui-ci avec la propriété css `color`.
 
 > **Note** 
 > L'attribut `xlink:href` dans la doc est déprécié à la place, il faut juste utiliser `href`
@@ -146,6 +147,8 @@ Pour colorier les svg pensez aux propriétés (ou attributs html) [stroke](https
 
 Pour insérer directement un svg dans votre code HTML, ouvrez le fichier svg sous forme de texte et faites simplement un copier-coller.
 
+Et pour finir, n'oubliez pas **les outils de développement de votre navigateur sont vos amis** 😁 
+
 ----
 ## Conclusion
 Ce défi à pour but, de **vous faire réviser et pratiquer** ce que vous avez appris. Il vous permettra également de **découvrir par vous-même de nouvelles choses**.
@@ -157,6 +160,9 @@ Si vous êtes bloqué, que vous avez des problèmes, n'hésitez pas à poser vos
 
 > **Note**
 > Cela ne sera pas le premier portfolio que vous aurez à construire, vous allez en effet en réaliser un avec Louis-Nicolas et utiliser d'autres spécificités HTML et CSS 😁  
+
+
+Développez-vous avec 💓 et bonne programmation !
 
 ----
 ## Crédits
